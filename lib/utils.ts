@@ -89,7 +89,7 @@ interface UrlQueryParams {
 }
 
 export function formUrlQuery({ params, key, value }: UrlQueryParams) {
-  const currentUrl = qs.parse(params);
+  let currentUrl = qs.parse(params);
 
   currentUrl[key] = value;
 
