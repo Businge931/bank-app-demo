@@ -159,7 +159,7 @@ export function countTransactionCategories(
     (category) => ({
       name: category,
       count: categoryCounts[category],
-      totalCount,
+      totalCount,  
     })
   );
 
