@@ -300,7 +300,7 @@ declare interface signInProps {
 }
 
 declare interface getUserInfoProps {
-  userId: string;
+  userId: string; 
 }
 
 declare interface exchangePublicTokenProps {
