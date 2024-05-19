@@ -298,15 +298,15 @@ declare interface signInProps {
   email: string;
   password: string; 
 }
-
-declare interface getUserInfoProps {
-  userId: string; 
-}
-
 declare interface exchangePublicTokenProps {
   publicToken: string;
   user: User;
 }
+declare interface getUserInfoProps {
+  userId: string; 
+}
+
+
 
 declare interface createBankAccountProps {
   accessToken: string;
