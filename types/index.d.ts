@@ -292,7 +292,7 @@ declare interface CreateTransactionProps {
 
 declare interface getTransactionsByBankIdProps {
   bankId: string;
-}
+}  
 
 declare interface signInProps {
   email: string;
