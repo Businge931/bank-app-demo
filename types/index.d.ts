@@ -309,7 +309,7 @@ declare interface getUserInfoProps {
 declare interface createBankAccountProps {
   accessToken: string;
   userId: string;
-  accountId: string;
+  accountId: string;  
   bankId: string;
   fundingSourceUrl: string;
   shareableId: string;
