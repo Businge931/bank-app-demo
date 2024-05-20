@@ -281,7 +281,7 @@ declare interface CreateFundingSourceOptions {
 }
 
 declare interface CreateTransactionProps {
-  name: string;
+  name: string;  
   amount: string;
   senderId: string;
   senderBankId: string;
