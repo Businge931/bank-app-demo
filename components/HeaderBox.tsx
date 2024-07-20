@@ -1,4 +1,4 @@
-import { title } from "process";
+// import { title } from "process";
 import React from "react";
 
 const HeaderBox = ({ type = "title", subtext, user ,title}: HeaderBoxProps) => {
