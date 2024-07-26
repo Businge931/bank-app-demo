@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import { formatAmount } from "@/lib/utils";
+// import { formatAmount } from "@/lib/utils";
 import AnimatedCounter from "./AnimatedCounter";
 import DoughnutChart from "./DoughnutChart";
 
