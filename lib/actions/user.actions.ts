@@ -94,7 +94,7 @@ export async function getLoggedInUser() {
 
     return parseStringify(user);
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return null;
   }
 }
